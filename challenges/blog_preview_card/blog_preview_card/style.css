@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000;
+}
+
+body,html{
+    width:100%;
+    height:100%;
+    background-color:rgb(255, 196, 0);
+    overflow:hidden;
+}
+
+.background{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100%;
+    
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    background-color:#ffffff;
+    border-radius:20px;
+    padding:20px;
+    border-right:10px solid #000;
+    border-bottom:10px solid #000;
+}
+
+.background .container .image img{
+    border-radius:10px;
+    margin-bottom:10px;
+}
+
+.background .container .text{
+    text-align:left;
+}
+
+.background .container .text h6{
+    padding:3px;
+    background-color:rgb(255, 196, 0);
+    margin-right:225px;
+    border-radius:5px;
+    margin-bottom:10px;
+}
+
+.background .container .text h5{
+    margin-bottom:15px;
+}
+
+.background .container .text h3{
+    margin-bottom:15px;
+}
+
+.background .container .text p{
+    font-size:15px;
+    margin-bottom:25px;
+}
+
+.background .container .under{
+    display:flex;
+
+}
+
+.background .container .under .round{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    overflow: hidden; 
+    display: flex; 
+    align-items: center; 
+    margin:0px;
+    padding:0px;
+    
+}
+
+.background .container .under .round img{
+    width: 100%;
+    height:100%;
+}
+
+.background .container .under h4{
+    padding:10px;
+}

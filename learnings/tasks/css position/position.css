@@ -1,0 +1,8 @@
+.main{
+    height:200vh;
+}
+
+.box1{
+    position:sticky;
+    top:0px;
+}

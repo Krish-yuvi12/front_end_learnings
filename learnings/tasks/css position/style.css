@@ -1,0 +1,24 @@
+.main{
+    background-color: brown;
+    padding:20px;
+    width:900px;
+}
+
+.box{
+    height:100px;
+    width:900px;
+    color:white;
+    font-weight:bold;
+}
+
+.box1{
+    background-color: teal;
+}
+
+.box2{
+    background-color: tomato;
+}
+
+.box3{
+    background-color: yellow;
+}

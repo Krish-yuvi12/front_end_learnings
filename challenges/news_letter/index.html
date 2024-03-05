@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-Lbx7IUBdI7hxFq4vFH2w/jeZqytcnAEK8EGGqf8q49KkqQRVgNodl8J+oIhXc6Wt" crossorigin="anonymous">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="text-area">
+                <h1>Stay Updated!</h1>
+                <p>Join 60,000+ product managers receiving monthly<br> updated on:</p>
+                <div class="points">
+                    <div class="circle">
+                        <i class="icon fa-solid fa-check"></i>
+                    </div>
+                    <h5>Product discovery and building what matters</h5>
+                </div>
+                <div class="points">
+                    <div class="circle">
+                        <i class="icon fa-solid fa-check"></i>
+                    </div>
+                    <h5>Measuring to ensure updates are a success</h5>
+                </div>
+                <div class="points">
+                    <div class="circle">
+                        <i class="icon fa-solid fa-check"></i>
+                    </div>
+                    <h5>Ad much more!</h5>
+                </div>
+
+
+                <form id="newsletterForm" action="success.html" method="post">
+                    <label for="email"><h6>Email address:</h6></label><br>
+                    <input type="email" id="email" name="email" placeholder="email@company.com" required><br>
+                    <span class="error-message" id="emailError">Please enter a valid email address</span> <!-- Error message container -->
+                    <br>
+                    <button type="submit" class="subscribe-btn">Subscribe to monthly newsletter</button>
+                </form>
+                
+            </div>
+            <div class="image-area">
+                <img src="newsletter.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

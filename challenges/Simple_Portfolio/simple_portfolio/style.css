@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif;
+    color:#ffffff;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevent scrollbars */
+    background-color:black;
+}
+
+a{
+    text-decoration:none;
+    cursor:pointer;
+    color:inherit;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100%;
+}
+
+.port{
+   
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-color: rgba(20, 20, 20, 0.7);
+    border-radius:20px;
+    padding:20px;
+}
+
+/*.outer{
+    background-color: rgba(20, 20, 20, 0.7);
+    padding:40px;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+}*/
+
+.circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin:20px;
+    padding:0px;
+    
+}
+
+.circle img {
+        width: 100%;
+        height:100%;
+}
+
+.container .port h2{
+    margin-bottom:3px;
+}
+
+.container .port p{
+    color:yellow;
+    margin-bottom:20px;
+}
+
+.container .port h5{
+    margin-bottom:15px;
+}
+
+.container .port h3{
+    padding:10px 70px;
+    background-color:  rgba(30, 30, 30, 0.5);;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+
+.container .port h3:hover {
+    background-color:rgb(168, 167, 167);
+    color: #000;
+  }
