@@ -221,13 +221,14 @@ header span {
   }
 
   
-.banner-btn{
+a.banner-btn{
     padding: 10px 20px; /* Adjust padding as needed */
     background-color: black;
     color: #ffffff;
     display: inline-block; /* Change the display property to inline-block */
     border-radius: 10px;
     margin-bottom: 30px; /* Adjust margin as needed */
+    width:125px;
        
 }
    
@@ -264,5 +265,9 @@ header span {
     }
     .company-images{
         justify-content:space-around;
+    }
+    a.banner-btn {
+        margin: 0 auto; /* Center the button horizontally */
+        margin-bottom:30px;
     }
   }
